@@ -1,0 +1,30 @@
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        top: 200px;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        top: 0;
+        animation-timing-function: ease-out;
+    }
+}
+.container {
+    height: 250px;
+    width: 100%;
+    position: relative;
+}

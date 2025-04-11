@@ -1,0 +1,87 @@
+
+.auth-section{
+    margin: 100px auto;
+ }
+ .custom-navbar {
+    background-color:rgb(48, 47, 47) ;
+    color: rgba(165, 141, 7, 0.897);
+    padding: 15px;
+}
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.custom-navbar i{
+    color: rgba(255, 217, 0, 0.801);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.btn-signup {
+    background-color:orange !important; 
+    color:white!important;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+.btn-signup:hover {
+    background-color: #218838 !important;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+ .left-side{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-left: 2px solid var(--color-primary-light);
+     border-radius: 5px;
+ 
+ }
+ .left-side h1{
+     font-weight: lighter;
+     color: var(--color-primary);
+     align-self: center;
+     justify-self: center;
+ }
+ .reg-form{
+     height: fit-content;
+     min-height: 80vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .reg-form form input{
+     background-color: aliceblue;
+     border: 1px solid skyblue;
+     min-height: 30px;
+     min-width: 250px;
+ }
+ 
+ .right-side{
+     position: relative;
+     height: 90vh;
+     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.4)), url("../images/auth-img.png");
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+ }
+ .warning-message{
+     font-size: 10px;
+ }
