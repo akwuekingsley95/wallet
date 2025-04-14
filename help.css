@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.custom-navbar {
+    background-color:rgb(48, 47, 47) ;
+    color: rgba(165, 141, 7, 0.897);
+    padding: 15px;
+}
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.custom-navbar i{
+    color: rgba(255, 217, 0, 0.801);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.btn-signup {
+    background-color:orange !important; 
+    color:white!important;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+.btn-signup:hover {
+    background-color: #218838 !important;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.photo1{
+    height: 50vh;
+    
+}
+.contact-form {
+    max-width: 600px;
+}
+
+.contact-form .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    margin-bottom: 15px;
+}
+.contact-form {
+    max-width: 600px;
+}
+
+.contact-form .form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.contact-form .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-form .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #f7931a;
+    box-shadow: none;
+}
+
+.contact-form .btn-send {
+    background-color: #f7931a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.contact-form .btn-send:hover {
+    background-color: #e07b00;
+}
+.card{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.7);
+}
+.get-started{ 
+    background-image: url(images/btc4.jpg);
+    background-size: cover;
+    width: 100%;
+}
+.get-started btn{
+    color: #e07b00;
+}
+.get-started a{
+    text-decoration: none;
+    color: #fff;
+}
+.caro
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.contact i{
+    color: gold;
+    margin: 7px;
+}
+.contact ul{
+    color: #ffffff;
+    list-style: none;
+}
+.info-section a{
+    text-decoration: none;
+    color: #fff;
+}
+.info-section ul{
+    list-style: none;
+}
+
+
+.footer-text {
+    text-align: center;
+    margin-top: 1rem;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+}
+
+
+

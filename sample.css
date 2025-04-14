@@ -1,0 +1,103 @@
+<div class="container">
+<div class="row">
+  <div class="col-sm-12 col-lg-6 left-side">
+
+    <div class="kyc-container">
+      <h1 class="text-center mb-4">Crypto KYC Verification</h1>
+      <form id="kycForm" enctype="multipart/form-data">
+          <!-- Personal Information -->
+          <div class="form-section">
+              <h3>Personal Information</h3>
+              <div class="row">
+                  <div class="col-md-6 mb-3">
+                      <label for="firstName" class="form-label required">First Name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                      <label for="lastName" class="form-label required">Last Name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="Enter last name" required>
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label required">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+              </div>
+              <div class="mb-3">
+                  <label for="phone" class="form-label required">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+              </div>
+              <div class="mb-3">
+                  <label for="dob" class="form-label required">Date of Birth</label>
+                  <input type="date" class="form-control" id="dob" required>
+              </div>
+          </div>
+
+          <!-- Address Information -->
+          <div class="form-section">
+              <h3>Address Information</h3>
+              <div class="mb-3">
+                  <label for="address" class="form-label required">Street Address</label>
+                  <input type="text" class="form-control" id="address" placeholder="Enter street address" required>
+              </div>
+              <div class="row">
+                  <div class="col-md-6 mb-3">
+                      <label for="city" class="form-label required">City</label>
+                      <input type="text" class="form-control" id="city" placeholder="Enter city" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                      <label for="postalCode" class="form-label required">Postal Code</label>
+                      <input type="text" class="form-control" id="postalCode" placeholder="Enter postal code" required>
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="country" class="form-label required">Country</label>
+                  <select class="form-select" id="country" required>
+                      <option selected disabled>Select country</option>
+                      <option value="us">United States</option>
+                      <option value="uk">United Kingdom</option>
+                      <option value="ca">Canada</option>
+                      <!-- Add more countries as needed -->
+                  </select>
+              </div>
+          </div>
+
+          <!-- Identity Verification -->
+          <div class="form-section">
+              <h3>Identity Verification</h3>
+              <div class="mb-3">
+                  <label for="idType" class="form-label required">ID Type</label>
+                  <select class="form-select" id="idType" required>
+                      <option selected disabled>Select ID type</option>
+                      <option value="passport">Passport</option>
+                      <option value="driverLicense">Driver's License</option>
+                      <option value="nationalId">National ID</option>
+                  </select>
+              </div>
+              <div class="mb-3">
+                  <label for="idNumber" class="form-label required">ID Number</label>
+                  <input type="text" class="form-control" id="idNumber" placeholder="Enter ID number" required>
+              </div>
+              <div class="mb-3">
+                  <label for="idDocument" class="form-label required">Upload ID Document</label>
+                  <input type="file" class="form-control" id="idDocument" accept=".jpg,.png,.pdf" required>
+              </div>
+              <div class="mb-3">
+                  <label for="selfie" class="form-label required">Upload Selfie with ID</label>
+                  <input type="file" class="form-control" id="selfie" accept=".jpg,.png" required>
+              </div>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="text-center">
+              <button type="submit" class="btn btn-submit">Submit KYC</button>
+          </div>
+      </form>
+  </div>
+
+      
+  </div>
+  <div class="d-none d-lg-block col-lg-6 right-side">
+
+  </div>
+</div>
+</div>

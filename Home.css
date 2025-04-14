@@ -1,0 +1,219 @@
+
+.about-us a {
+    text-decoration: none;
+}
+
+.custom-navbar {
+    background-color:rgb(48, 47, 47) ;
+    color: rgba(165, 141, 7, 0.897);
+    padding: 15px;
+}
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.custom-navbar i{
+    color: rgba(255, 217, 0, 0.801);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.btn-signup {
+    background-color:orange !important; 
+    color:white!important;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+.btn-signup:hover {
+    background-color: #218838 !important;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.team-member-caption:hover{
+    background-color: #ff9500;
+    color: white;
+    transition:ease 0.3s ;
+}
+.buy-sell{
+    background-color: #2a3b5a;
+    width: 60%;
+    box-shadow: 5px 5px #000;
+}
+.photo1 img{
+height: 800px;
+object-fit: cover;
+filter: brightness(0.6);
+}
+.photo1{
+    height: 50vh;
+}
+.calculator-image {
+    background-image: url(images/btc5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.calculator-section {
+    padding: 50px 0;
+}
+
+.calculator-box {
+    background-color: #2a3b5a;
+    width: 60%;
+}
+.calculator-box input, .calculator-box select {
+    background-color: #1a2a44;
+    border: none;
+    color: #fff;
+}
+.calculator-box input:focus, .calculator-box select:focus {
+    color: #fff;
+    box-shadow: none;
+    border-radius: 1px solid #f5c518;
+}
+.calculator-box h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.calculator-box p{
+    color: #b0b0b0;
+    font-size: 1.2rem;
+}
+.select-menu-toggle {
+    background-color: #ff9500 !important;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+.select-menu {
+    background-color: #2a2a2a;
+}
+.select-item {
+    color: #fff;
+}
+.select-item:hover {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.experts-section {
+    background-color: #1a2a44;
+}
+
+.btn-warning {
+    background-color: #f5c518;
+    border: none;
+    color: #000;
+}
+.btn-warning:hover {
+    background-color: #e0b015;
+}
+.photo1 a{
+    text-decoration: none;
+
+}
+.box{
+   position: relative;
+   height: 200px;
+   
+}
+
+.word{
+height: 200px;
+background-color: rgba(27, 27, 27, 0.516);
+display: flex;
+justify-content: space-evenly;
+}
+.w-35{
+    color: #ffffff;
+    width: 30%;
+}
+.photo{
+    height: 70px !important;
+}
+.web{
+    color: #ffffff;
+}
+.bitcoin-photo{
+    height: 500px !important;
+}
+
+.about{
+    line-height: 20px;
+}
+
+.read-more{
+    text-decoration: none;
+    color: gold;
+}
+.buy{
+    text-decoration: none;
+    color: gold;
+}
+.bitcoin-box a{
+    text-decoration: none;
+}
+.buy-sell{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.9);
+}
+.card{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.7);
+}
+.get-started{
+    background-image: url(images/whales-lolo.png);
+    background-size: cover;
+    width: 100%;
+}
+.get-started a{
+    text-decoration: none;
+
+}
+.footer-text {
+    text-align: center;
+    margin-top: 1rem;
+    color: #bdc3c7;
+    font-size: 0.9rem;
+}
+.payment h4{
+    font-size: 10px;
+}
+.payment img{
+    width: 30px;
+}
+.info-section a{
+    text-decoration: none;
+    color: #fff;
+}
+.info-section ul{
+    list-style: none;
+}
+.pic{
+    height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .calculator-box {
+        width: 100%;
+    }
+
+    .calculator-word {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}

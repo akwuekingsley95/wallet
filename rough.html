@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto User Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <!-- Font Awesome for icons -->
+     <link rel="stylesheet" href="css/font-awasome/css/all.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .sidebar {
+            background-color: #212529;
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #28a745;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+        .btn-primary:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+        .portfolio-value {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .status-verified {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .status-pending {
+            color: #ffc107;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex">
+        <!-- Sidebar -->
+        <div class="sidebar col-md-2">
+            <h4 class="text-white text-center mb-4">Crypto Dashboard</h4>
+            <a href="#"><i class="fas fa-home me-2"></i> Dashboard</a>
+            <a href="#"><i class="fas fa-wallet me-2"></i> Wallet</a>
+            <a href="#"><i class="fas fa-exchange-alt me-2"></i> Transactions</a>
+            <a href="#"><i class="fas fa-user-check me-2"></i> Verification</a>
+            <a href="#"><i class="fas fa-cog me-2"></i> Settings</a>
+            <a href="#"><i class="fas fa-sign-out-alt me-2"></i> Logout</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-10 p-4">
+            <div class="container">
+                <!-- Welcome Section -->
+                <div class="mb-4">
+                    <h2>Welcome, User!</h2>
+                    <p>Your crypto journey starts here.</p>
+                </div>
+
+                <!-- Portfolio Overview -->
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Portfolio Value</h5>
+                                <p class="portfolio-value">$12,345.67</p>
+                                <p class="text-success">+5.2% (Past 24h)</p>
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Verification Status</h5>
+                                <p class="status-verified">Verified</p>
+                                <p>Documents approved on April 5, 2025</p>
+                                <a href="#" class="btn btn-primary">Manage Verification</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Transactions -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Recent Transactions</h5>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Type</th>
+                                    <th>Amount</th>
+                                    <th>Currency</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Apr 10, 2025</td>
+                                    <td>Buy</td>
+                                    <td>0.25</td>
+                                    <td>BTC</td>
+                                    <td class="text-success">Completed</td>
+                                </tr>
+                                <tr>
+                                    <td>Apr 9, 2025</td>
+                                    <td>Sell</td>
+                                    <td>1.5</td>
+                                    <td>ETH</td>
+                                    <td class="text-success">Completed</td>
+                                </tr>
+                                <tr>
+                                    <td>Apr 8, 2025</td>
+                                    <td>Transfer</td>
+                                    <td>100</td>
+                                    <td>USDT</td>
+                                    <td class="text-warning">Pending</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#" class="btn btn-primary">View All Transactions</a>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Quick Actions</h5>
+                        <div class="d-flex justify-content-around">
+                            <a href="#" class="btn btn-primary"><i class="fas fa-plus me-2"></i> Buy Crypto</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-minus me-2"></i> Sell Crypto</a>
+                            <a href="#" class="btn btn-primary"><i class="fas fa-paper-plane me-2"></i> Send Crypto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+
+.auth-section{
+    margin: 100px auto;
+ }
+ .custom-navbar {
+    background-color:rgb(48, 47, 47) ;
+    color: rgba(165, 141, 7, 0.897);
+    padding: 15px;
+}
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white !important;
+}
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.custom-navbar i{
+    color: rgba(255, 217, 0, 0.801);
+    font-size: 1.5rem;
+    margin-right: 5px;
+}
+.btn-signup {
+    background-color:orange !important; 
+    color:white!important;
+    border-radius: 20px;
+    padding: 10px 20px;
+    
+}
+.btn-signup:hover {
+    background-color: #218838 !important;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+ .left-side{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border-left: 2px solid var(--color-primary-light);
+     border-radius: 5px;
+ 
+ }
+ .left-side h1{
+     font-weight: lighter;
+     color: var(--color-primary);
+     align-self: center;
+     justify-self: center;
+ }
+ /* body {
+    background-color: #f8f9fa;
+} */
+.kyc-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.form-section {
+    margin-bottom: 30px;
+}
+.form-section h3 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+.btn-submit {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+}
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+.required::after {
+    content: " *";
+    color: red;
+}
+.caro{
+    height: 100%;
+  }
+  .carousel-inner{
+    height: 100%;
+  }
+ 
