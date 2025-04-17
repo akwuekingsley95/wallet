@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f7fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidebar {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #1a1d29 0%, #2a2f3d 100%);
+    color: #ffffff;
+    position: fixed;
+    width: 250px;
+    transition: all 0.3s;
+}
+.sidebar a {
+    color: #adb5bd;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.3s;
+}
+.sidebar a:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+.sidebar .active {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.2);
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+.navbar {
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-icon {
+    /* font-size: 2rem; */
+    color: #ffffff;
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    padding: 15px;
+    border-radius: 10px;
+}
+.table {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.table th {
+    background: #f8f9fa;
+}
+.crypto-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.status-success {
+    color: #28a745;
+    font-weight: 500;
+}
+.status-pending {
+    color: #ffc107;
+    font-weight: 500;
+}
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+input{
+    padding: 10px;
+    border-radius: 50px;
+    /* border: 1px solid red; */
+}
+@media (max-width: 768px) {
+    .sidebar {
+        width: 70px;
+    }
+    .sidebar span {
+        display: none;
+    }
+    .content {
+        margin-left: 70px;
+    }
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+}
+.sidebar {
+    background-color: #212529;
+    min-height: 100vh;
+    padding-top: 20px;
+}
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #28a745;
+}
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.portfolio-value {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.status-verified {
+    color: #28a745;
+    font-weight: bold;
+}
+.status-pending {
+    color: #ffc107;
+    font-weight: bold;
+}
+.profile-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #dee2e6;
+}

@@ -75,21 +75,21 @@ filter: brightness(0.6);
     background-color: #2a3b5a;
     width: 60%;
 }
-.calculator-box input, .calculator-box select {
+.calculator-image input, .calculator-image select {
     background-color: #1a2a44;
     border: none;
-    color: #fff;
+    color: #1a2a44;
 }
-.calculator-box input:focus, .calculator-box select:focus {
+.calculator-image input:focus, .calculator-image select:focus {
     color: #fff;
     box-shadow: none;
     border-radius: 1px solid #f5c518;
 }
-.calculator-box h2{
+.calculator-image h2{
     font-size: 3rem;
     font-weight: bold;
 }
-.calculator-box p{
+.calculator-image p{
     color: #b0b0b0;
     font-size: 1.2rem;
 }
@@ -174,7 +174,7 @@ justify-content: space-evenly;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.7);
 }
 .get-started{
-    background-image: url(images/whales-lolo.png);
+    background-image: url(images/btc1.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -202,8 +202,53 @@ justify-content: space-evenly;
     list-style: none;
 }
 .pic{
-    height: 500px;
+    height: 300px;
 }
+/* loader */
+.loader{
+    position: absolute;
+    position: fixed;
+    z-index: 9999981;
+    height: 100vh;
+    width: 100%;
+    top:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    animation: dissapear 2s;
+   
+  
+  }
+  
+  @keyframes dissapear {
+    from{
+      visibility: visible;
+    }
+    to{
+      visibility: visible;
+    }
+    
+  }
+  .spinner{
+     font-size: 40px;
+    color: gold;
+    animation: rotate 1s linear infinite;
+  
+  }
+  
+  @keyframes rotate {
+    from{
+      transform: rotate(0deg);
+    }
+     to{
+      transform: rotate(360deg);
+    }
+    
+  }
+  
+  
+  /* loader */
 
 @media screen and (max-width: 600px) {
 

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="p-4 text-center">
+            <h4 class="text-white">Crypto Dash</h4>
+        </div>
+        <hr class="bg-secondary mx-3">
+        <nav class="nav flex-column">
+            <a href="#" class="nav-link active"><i class="fas fa-home me-2"></i> <span>Dashboard</span></a>
+            <a href="#" class="nav-link"><i class="fas fa-wallet me-2"></i> <span>Wallet</span></a>
+            <a href="verification.html"><i class="fas fa-user-check me-2"></i> Verification</a>
+            <a href="#" class="nav-link"><i class="fas fa-exchange-alt me-2"></i> <span>Transactions</span></a>
+            <a href="#" class="nav-link"><i class="fas fa-chart-line me-2"></i> <span>Analytics</span></a>
+            <a href="setting.html" class="nav-link"><i class="fas fa-cog me-2"></i> <span>Settings</span></a>
+        </nav>
+
+
+
+        
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mt-4">
+                          <i class="fa fa-search" aria-hidden="true">
+                          <input type="text" placeholder="search"></i>
+                        </li>
+                        <li class="nav-item mt-4">
+                            <a class="nav-link" href="#"><i class="fas fa-bell me-2"></i> Notifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="images/ceo1.jpg" class="profile-img" alt=""> Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid mt-4">
+            <h2 class="mb-4">Crypto Dashboard</h2>
+
+            <!-- Metrics Cards -->
+            <div class="row g-4 mb-4">
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon me-3"><i class="fas fa-wallet"></i></div>
+                            <div>
+                                <h6 class="text-muted">Total Balance</h6>
+                                <h4>$45,230.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon me-3"><i class="fab fa-bitcoin"></i></div>
+                            <div>
+                                <h6 class="text-muted">Bitcoin</h6>
+                                <h4>1.245 BTC</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon me-3"><i class="fab fa-ethereum"></i></div>
+                            <div>
+                                <h6 class="text-muted">Ethereum</h6>
+                                <h4>12.67 ETH</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card p-3">
+                        <div class="d-flex align-items-center">
+                            <div class="card-icon me-3"><i class="fas fa-chart-bar"></i></div>
+                            <div>
+                                <h6 class="text-muted">Portfolio Growth</h6>
+                                <h4 class="text-success">+12.5%</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio Table -->
+            <!-- <div class="col-md-6 col-sm-12"> -->
+                <div class="row">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Coin</th>
+                                        <th>Price</th>
+                                        <th>Holdings</th>
+                                        <th>Value</th>
+                                        <th>24h Change</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="https://via.placeholder.com/30" class="crypto-logo me-2"> Bitcoin</td>
+                                        <td>$36,450.20</td>
+                                        <td>1.245 BTC</td>
+                                        <td>$45,380.50</td>
+                                        <td class="text-success">+3.45%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="https://via.placeholder.com/30" class="crypto-logo me-2"> Ethereum</td>
+                                        <td>$2,450.80</td>
+                                        <td>12.67 ETH</td>
+                                        <td>$31,051.64</td>
+                                        <td class="text-danger">-1.23%</td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="https://via.placeholder.com/30" class="crypto-logo me-2"> Cardano</td>
+                                        <td>$1.15</td>
+                                        <td>5,000 ADA</td>
+                                        <td>$5,750.00</td>
+                                        <td class="text-success">+2.10%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transaction History -->
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Transaction History</h5>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Type</th>
+                                <th>Amount</th>
+                                <th>Coin</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2025-04-14</td>
+                                <td>Buy</td>
+                                <td>0.5 BTC</td>
+                                <td>Bitcoin</td>
+                                <td class="status-success text-success">Completed</td>
+                            </tr>
+                            <tr>
+                                <td>2025-04-13</td>
+                                <td>Sell</td>
+                                <td>2.3 ETH</td>
+                                <td>Ethereum</td>
+                                <td class="status-success text-success">Completed</td>
+                            </tr>
+                            <tr>
+                                <td>2025-04-12</td>
+                                <td>Transfer</td>
+                                <td>1,000 ADA</td>
+                                <td>Cardano</td>
+                                <td class="status-pending text-danger">Pending</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#" class="btn btn-primary">View All Transactions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="css/js/bootstrap.bundle.js.map"></script>
+</body>
+</html

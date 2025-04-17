@@ -1,0 +1,70 @@
+
+        body {
+            background-color: #f8f9fa;
+            position: relative;
+            display: flex;
+            width: 100%;
+        }
+        .sidebar {
+            background-color: #212529;
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #414241;
+            transition: 0.3s ease-in-out;
+            color: #fff;
+        }
+        .sidebar .logo img{
+            width: 50px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+            
+        }
+        .sidebar .logo{
+            display: flex;
+            align-items: center;
+            color:#fff;
+            padding: 30px 0 0 30px;
+        }
+        #interface{
+            width: calc(100% -300px);
+        }
+        .card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+        .btn-primary:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+        .portfolio-value {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .status-verified {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .status-pending {
+            color: #ffc107;
+            font-weight: bold;
+        }
+        .profile-img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #dee2e6;
+        }
+    

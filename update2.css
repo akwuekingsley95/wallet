@@ -1,0 +1,108 @@
+body{
+    font-family: sans-serif;
+    background-color: #f5f7fb;
+}
+.sidebar{
+    min-height: 100vh;
+    background: #1a1f37;
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color:#fff;
+}
+.sidebar .logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sidebar .nav-link{
+    color: #a3a6b4;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}.sidebar .nav-link:hover, .sidebar .nav-link .active{
+    color: #fff;
+    background-color: #2c3350;
+}
+.main content{
+    margin-left: 250px;
+    padding: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.header .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0.4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background:#fff ;
+}
+.card .card-title{
+    font-size: 16px;
+    color: #6c757d;
+}
+.card .card-value{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1f37;
+}
+.card .card-change{
+    font-size: 14px;
+}
+.card .text-success{
+    color: #28a745 !important;
+}
+.card .text-danger{
+    color: #dc3545 !important;
+}
+.chart-container{
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.table{
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.table th{
+    background: #f8f8fa;
+    border: none;
+}
+.table td{
+    vertical-align: middle;
+    border: none;
+}
+.status-pending{
+    color: #ffc107;
+    font-weight: 500;
+}
+.status-success{
+    color: #28a745;
+    font-weight: 500;
+}
+@media (max-width:768px){
+    .sidebar{
+        width: 70px;
+        padding: 10px;
+    }
+    .sidebar .logo .sidebar .nav-link span{
+        display: none;
+    }
+    .main-content{
+        margin-left: 70px;
+    }
+}

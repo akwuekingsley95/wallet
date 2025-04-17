@@ -13,6 +13,7 @@
 </head>
 
 <body class="bg-dark">
+  <!-- navbar -->
   <nav class="navbar navbar-expand-sm custom-navbar bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#"> WHALES</a>
@@ -41,8 +42,16 @@
     </div>
   </nav>
 
+  <!-- loader -->
+  <div class="loader bg-light">
+    <i class="fa fa-spinner spinner "> </i>
+  
+  </div>
+
+
   <div class="container-fluid">
     <main>
+      <!-- carousel -->
       <div id="carouselExampleDark" class="carousel carousel-dark slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -60,7 +69,8 @@
                   class="text-warning">EASY WAY</span><br>
                 <span>TO BITCOIN</span>
               </h1>
-              <button type="button" class="btn btn-outline-warning"><a href="about.html" class="text-white">LEARN MORE</a></button>
+              <button type="button" class="btn btn-outline-warning"><a href="about.html" class="text-white">LEARN
+                  MORE</a></button>
             </div>
           </div>
           <div class="carousel-item photo1" data-bs-interval="2000">
@@ -69,7 +79,8 @@
               <h1 class="text-white display-1 fw-bold"><span class="text-warning">BITCOIN</span>EXCHANGE<br> YOU CAN
                 <span class="text-warning">TRUST</span>
               </h1>
-              <button type="button" class="btn btn-outline-warning"><a href="our-price.html" class="text-white">OUR PRICE</a></button>
+              <button type="button" class="btn btn-outline-warning"><a href="our-price.html" class="text-white">OUR
+                  PRICE</a></button>
             </div>
           </div>
         </div>
@@ -84,6 +95,7 @@
       </div>
     </main>
 
+    <!-- card -->
     <div class="container mx-auto mt-4 p-4  bg-dark card">
       <div class="row">
         <div class="col-md-4">
@@ -159,16 +171,36 @@
               Nothing extra. Join over 700,000 users from all over the<br> world satisfied with our services.
             </p>
 
-            <div class="dropdown">
-              <button class="dropbtn"><a href="#" class="fw-bold text-warning">OUR MISSION</a></button>
-              <div class="dropdown-content">
-                <p class="text-white d-flex justify-content-between">
-                  <a href="#" class="fw-bold text-warning">OUR ADVANTAGES</a>
-                  <a href="#" class="fw-bold text-warning">OUR GURANTEES</a>
-                </p>
-                
+            <p class="d-inline-flex gap-1">
+              <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                aria-controls="multiCollapseExample2">Toggle second element</button>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse"
+                aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+                elements</button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                  <div class="card card-body">
+                    Bitcoin is based on a protocol known as the blockchain, which allows to create,<br> transfer and
+                    verify ultra-secure
+                    financial data without interference of third parties.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                  <div class="card card-body">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This
+                    panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
               </div>
             </div>
+
             <p class="mt-3 text-white">Bitcoin is based on a protocol known as the blockchain, which allows to
               create,<br>
               transfer and verify ultra-secure financial data without interference of third <br>parties.</p>
@@ -179,6 +211,7 @@
       </div>
     </div>
 
+    <!-- affordable -->
     <div class="affordable">
       <div class="container">
         <div class="row">
@@ -188,8 +221,10 @@
             account
           </p>
           <p class="buy text-center">
-            <button type="button" class="btn btn-outline-warning text-center"><a href="#" class="buy text-white">BUY</a></button>
-            <button type="button" class="btn btn-outline-warning text-center"><a href="#" class="buy text-white">SELL</a></button>
+            <button type="button" class="btn btn-outline-warning text-center"><a href="#"
+                class="buy text-white">BUY</a></button>
+            <button type="button" class="btn btn-outline-warning text-center"><a href="#"
+                class="buy text-white">SELL</a></button>
           </p>
 
           <div class="row mt-5 bitcoin-box">
@@ -227,7 +262,7 @@
                   <p class="card-text text-center fs-1 fw-bold text-white">$500</p>
                   <div class="button text-center">
                     <button type="button" class="btn btn-warning text-center mt-5">
-                      <a class="text-decoration-none text-white"href="#">ORDER NOW</a>
+                      <a class="text-decoration-none text-white" href="#">ORDER NOW</a>
                     </button>
                   </div>
                 </div>
@@ -252,173 +287,173 @@
     </div>
 
 
-    <div class="calculator-image">
-      <div class="row calculator-box mx-auto mt-4 p-4 rounded shadow bg-dark">
-        <div class="col-12 align-items-center">
-          <h2 class="text-warning text-center calculator-word">BITCOIN <br> <span class="text-white">CALCULATOR</span>
-          </h2>
-          <p class="text-center text-white">FIND OUT THE CURRENT CRYTPTOCURRENCY VALUE WITH OUR<br>
-            EASY-TO-USE COVERTER
-          </p>
-          <input type="number" class="dropdown-item" id="result" value="1">
-
-          <div class="col-md-3">
-            <input type="number" class="dropdown-item" id="result" value="1">
-            <div class="col-md-3">
-              <div class="select-menu">
-                <select name="" class="form-select" style="background-color: #ff9500 !important;" id="">
-                  <option value="1">zamani</option>
-                  <option value="1">za</option>
-                  <option value="1">z</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="col-md-3 d-flex">
-              <input type="text" class="dropdown-item" id="result" value="8949357348">
-              <div class="select-menu">
-                <select name="" class="form-select" style="background-color: #ff9500 !important;" id="">
-                  <option value="1">zamani</option>
-                  <option value="1">za</option>
-                  <option value="1">z</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="text-light mt-2">* Data updates every 15 minutes</p>
-      </div>
-
-      <div class="row m-5">
-        <div class="expert">
-          <h3 class="text-center text-warning fs-1 fw-bold">OUR <span class="text-white">EXPERTS</span> </h3>
-          <p class="text-center text-white">A TALENTED TEAM OF CRYTPTOCURRENCY EXPERT </p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-          <div class="card">
-            <img class="card-img-top pic" src="images/ceo1.jpg" alt="CEO" />
-            <div class="card-body team-member-caption">
-              <h4 class="card-title">ANTONIO CONTE</h4>
-              <p class="card-text"><i>CEO</i></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-          <div class="card">
-            <img class="card-img-top pic" src="images/director.jpg" alt="Title" />
-            <div class="card-body team-member-caption">
-              <h4 class="card-title"> ELIZABETH STARK</h4>
-              <p class="card-text"><i>Bitcoin Consultant</i></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-          <div class="card">
-            <img class="card-img-top pic" src="images/new-ceo.jpg" alt="Title" />
-            <div class="card-body team-member-caption">
-              <h4 class="card-title">Lina Marzouki</h4>
-              <p class="card-text"><i>Bitcoin Consultant</i></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <div class="card">
-            <img class="card-img-top pic" src="images/CEO7.jpg" alt="Title" />
-            <div class="card-body team-member-caption">
-              <h4 class="card-title">Marco Verratti</h4>
-              <p class="card-text"><i>Director</i></p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="bitcoin">
-        <h3 class="text-white text-center pt-5">GET STARTED TODAY WITH BITCOIN</h3>
-        <p class="text-white text-center fw-bold">Open account for free and start trading Bitcoins!</p>
-        <div class="button text-center">
-          <button type="button" class="btn btn-warning text-center mb-5">
-            <a class="text-decoration-none text-white" href="register.html">REGISTER NOW</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <section class="info-section">
-      <div class="container bg-dark mt-5">
+    <!--calculator-image  -->
+    <section class="calculator-image">
+      <div class="container bg-dark mt-5 p-5">
         <div class="row">
-          <div class="col-md-3">
-            <h5 class="text-warning">OUR COMPANY</h5>
-            <ul>
-              <li><a href="Home.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="services.html">SERVICES</a></li>
-              <li><a href="#">CONTACT</a></li>
-            </ul>
+          <div class="col-12 align-items-center">
+            <h2 class="text-warning text-center calculator-word">BITCOIN <span class="text-white">CALCULATOR</span></h2>
+            <p class="text-center text-white">FIND OUT THE CURRENT CRYTPTOCURRENCY VALUE WITH OUR EASY-TO-USE COVERTER
+            </p>
           </div>
-          <div class="col-md-3">
-            <h5 class="text-warning">HELP & SUPPORT</h5>
-            <ul class="text-warning">
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">TERMS AND SERVICES</a></li>
-              <li><a href="register.html">REGISTER</a></li>
-              <li><a href="login.html">LOGIN</a></li>
-              <li><a
-                  href="https://cointelegraph.com/learn/articles/what-is-a-cryptocurrency-a-beginners-guide-to-digital-money">WHAT
-                  IS BITCOIN?</a></li>
-              <li><a
-                  href="https://www.investopedia.com/articles/investing/082914/basics-buying-and-investing-bitcoin.asp#toc-how-to-buy-bitcoin">HOW
-                  TO BUY BITCOIN</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h5 class="text-warning">CONTACT US</h5>
-            <ul class="text-white">
-              <li>USA 27TH BROOKLYN NY</li>
-              <li>LONDON 22TH HEMPSTEAD</li>
-              <li>MON - SAT: 8AM - 5PM</li>
-              <p class="social-media text-warning">
-                <i class="fab fa-linkedin fa-2x"></i>
-                <i class="fab fa-facebook fa-2x"></i>
-                <i class="fab fa-twitter fa-2x"></i>
-              </p>
-            </ul>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="select-menu">
+              <select name="" class="form-select" style="background-color: #ff9500 !important;" id="">
+                <option value="1">BTC</option>
+                <option value="1">SOL</option>
+                <option value="1">ETH</option>
+              </select>
+            </div>
+            <input type="number" class="dropdown-item bg-light" id="result" value="1">
           </div>
 
-          <div class="col-md-3 text-white">
-            <div class="stat-item">
-              <h3 class="text-warning">$198.76B</h3>
-              <p>MARKET CAP</p>
-            </div>
-            <div class="stat-item">
-              <h3 class="text-warning">243K</h3>
-              <p>DAILY TRANSACTION</p>
-            </div>
-            <div class="stat-item">
-              <h3 class="text-warning">369K</h3>
-              <p>ACTIVE ACCOUNTS</p>
-            </div>
-            <div class="stat-item">
-              <h3 class="text-warning">127</h3>
-              <p>SUPPORTED COUNTRIES</p>
+          <div class="col-md-6 d-flex">
+            <input type="number" class="dropdown-item bg-light" id="result" value="1">
+            <div class="select-menu">
+              <select name="" class="form-select" style="background-color: #ff9500 !important;" id="">
+                <option value="1">zamani</option>
+                <option value="1">za</option>
+                <option value="1">z</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    
-    <div class="footer-text">
-      Copyright © 2025 Whales. All Rights Reserved
+  </div>
+  </div>
+  </section>
+
+  <!-- expert -->
+  <section class="row m-5">
+    <div class="expert">
+      <h3 class="text-center text-warning fs-1 fw-bold">OUR <span class="text-white">EXPERTS</span> </h3>
+      <p class="text-center text-white">A TALENTED TEAM OF CRYTPTOCURRENCY EXPERT </p>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+      <div class="card">
+        <img class="card-img-top pic" src="images/ceo1.jpg" alt="CEO" />
+        <div class="card-body team-member-caption">
+          <h4 class="card-title">ANTONIO CONTE</h4>
+          <p class="card-text"><i>CEO</i></p>
+        </div>
+      </div>
     </div>
 
-    <!-- <script src="css/js/bootstrap.bundle.js.map"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
-      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
-      crossorigin="anonymous"></script>
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+      <div class="card">
+        <img class="card-img-top pic" src="images/director.jpg" alt="Title" />
+        <div class="card-body team-member-caption">
+          <h4 class="card-title"> ELIZABETH STARK</h4>
+          <p class="card-text"><i>Bitcoin Consultant</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+      <div class="card">
+        <img class="card-img-top pic" src="images/new-ceo.jpg" alt="Title" />
+        <div class="card-body team-member-caption">
+          <h4 class="card-title">Lina Marzouki</h4>
+          <p class="card-text"><i>Bitcoin Consultant</i></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="card">
+        <img class="card-img-top pic" src="images/CEO7.jpg" alt="Title" />
+        <div class="card-body team-member-caption">
+          <h4 class="card-title">Marco Verratti</h4>
+          <p class="card-text"><i>Director</i></p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="get-started">
+      <h3 class="text-white text-center pt-5">GET STARTED TODAY WITH BITCOIN</h3>
+      <p class="text-white text-center fw-bold">Open account for free and start trading Bitcoins!</p>
+      <div class="button text-center">
+        <button type="button" class="btn btn-warning text-center mt-5 mb-5">
+          <a class=" text-decoration-none text-white" href="register.html">REGISTER NOW</a>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- info-section -->
+  <section class="info-section">
+    <div class="container bg-dark mt-5">
+      <div class="row">
+        <div class="col-md-3">
+          <h5 class="text-warning">OUR COMPANY</h5>
+          <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="text-warning">HELP & SUPPORT</h5>
+          <ul class="text-warning">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">TERMS AND SERVICES</a></li>
+            <li><a href="register.html">REGISTER</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a
+                href="https://cointelegraph.com/learn/articles/what-is-a-cryptocurrency-a-beginners-guide-to-digital-money">WHAT
+                IS BITCOIN?</a></li>
+            <li><a
+                href="https://www.investopedia.com/articles/investing/082914/basics-buying-and-investing-bitcoin.asp#toc-how-to-buy-bitcoin">HOW
+                TO BUY BITCOIN</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5 class="text-warning">CONTACT US</h5>
+          <ul class="text-white">
+            <li>USA 27TH BROOKLYN NY</li>
+            <li>LONDON 22TH HEMPSTEAD</li>
+            <li>MON - SAT: 8AM - 5PM</li>
+            <p class="social-media text-warning">
+              <i class="fab fa-linkedin fa-2x"></i>
+              <i class="fab fa-facebook fa-2x"></i>
+              <i class="fab fa-twitter fa-2x"></i>
+            </p>
+          </ul>
+        </div>
+
+        <div class="col-md-3 text-white">
+          <div class="stat-item">
+            <h3 class="text-warning">$198.76B</h3>
+            <p>MARKET CAP</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="text-warning">243K</h3>
+            <p>DAILY TRANSACTION</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="text-warning">369K</h3>
+            <p>ACTIVE ACCOUNTS</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="text-warning">127</h3>
+            <p>SUPPORTED COUNTRIES</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="footer-text">
+    Copyright © 2025 Whales. All Rights Reserved
+  </div>
+
+  <!-- script -->
+  <script src="css/js/bootstrap.bundle.js.map"></script>
 </body>
+
 </html>
